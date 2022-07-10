@@ -1,6 +1,3 @@
-# Documentation about vim lib:
-#http://vimdoc.sourceforge.net/htmldoc/if_pyth.html
-
 # We will only be able to impor Vim if this script is executed inside
 # vim
 try:
@@ -11,10 +8,6 @@ except ImportError:
 
 def document_func(func_name, iden_lvl, params):
     assert func_name is not None
-
-    # Get current line in vim
-    row, col = vim.current.window.cursor
-    row = int(row)
 
     iden_lvl = int(iden_lvl)
 
@@ -108,8 +101,4 @@ def document_func(func_name, iden_lvl, params):
     output += definition_string
 
     for line in output.split("\n"):
-        if line.strip():
-            # Add line bellow the row in which we are
-            vim.current.buffer.append(line, row)
-            row += 1
-
+        vim.current.buffer.append(line)
