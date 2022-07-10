@@ -1,8 +1,11 @@
+" We should not try to execute this plugin if there is no python3 availabe
+" as the logic for this logic is wrote in python
 if !has('python3')
   echo "Error: Required vim compiled with +python3"
   finish
 endif
 
+" Only load this plugin once
 if exists('g:plugin_loaded')
   finish
  endif
@@ -32,6 +35,7 @@ function! Document(func_name, ident_lvl, params)
 	python3 dc.document_func(vim.eval('a:func_name'), vim.eval('a:ident_lvl'), vim.eval('a:params'))
 endfunction
 
+" Keep track that the plugin was already loaded
 let g:plugin_loaded = 1
 
 " Convert a given function into a Vim command
