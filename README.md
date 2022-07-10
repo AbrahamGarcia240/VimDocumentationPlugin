@@ -20,7 +20,8 @@ This is a Vim plugin coded in Python 3 that creates the command **Document** whi
 #
 def <your_function_name>(arg1, arg2):
 ```
-![](https://github.com/AbrahamGarcia240/VimDocumentationPlugin/blob/master/Screen%20Recording%202022-07-10%20at%2016.50.57.gif)
+## Quick demo :D
+![](https://github.com/AbrahamGarcia240/VimDocumentationPlugin/blob/master/Screen_Recording_2022-07-10_at_16_50_57.gif)
 
 
 
