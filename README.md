@@ -19,10 +19,9 @@ This is a Vim plugin coded in Python 3 that creates the command **Document** whi
 #
 #
 def <your_function_name>(arg1, arg2):
-
+```
 Created by Abraham Garcia with the help of Kimsa :3
 
-```
 ## Quick demo :D
 ![](https://github.com/AbrahamGarcia240/VimDocumentationPlugin/blob/master/Screen_Recording_2022-07-10_at_16_50_57.gif)
 
