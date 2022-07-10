@@ -3,6 +3,10 @@ if !has('python3')
   finish
 endif
 
+if exists('g:plugin_loaded')
+  finish
+ endif
+
 " Get the path of this script
 let s:plugin_root_dir = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
@@ -27,6 +31,8 @@ function! Document(func_name, ident_lvl, params)
 	" variable in vim
 	python3 dc.document_func(vim.eval('a:func_name'), vim.eval('a:ident_lvl'), vim.eval('a:params'))
 endfunction
+
+let g:plugin_loaded = 1
 
 " Convert a given function into a Vim command
 command! -nargs=* Document call Document(<f-args>)
