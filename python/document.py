@@ -90,6 +90,11 @@ def document_func(func_name, iden_lvl, params):
         output += f"{ident}#     None\n" 
     output += f"{ident}#\n"
 
+    # RETURNS
+    output += f"{ident}#   RETURNS:\n"
+    output += f"{ident}#     <your descr>\n"
+    output += f"{ident}#\n"
+
     # RAISES
     output += f"{ident}#   RAISES:\n"
     output += f"{ident}#     <your descr>\n"
