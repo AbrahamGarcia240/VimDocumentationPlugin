@@ -11,6 +11,9 @@ This is a Vim plugin coded in Python 3 that creates the command **Document** whi
 #     arg1
 #     arg2
 #
+#   RETURNS
+#     <your descr>
+#
 #   RAISES:
 #     <your descr>
 #
@@ -47,6 +50,9 @@ Example:
 #     num1
 #     num2
 #
+#   RETURNS
+#     <your descr>
+#
 #   RAISES:
 #     <your descr>
 #
@@ -67,6 +73,9 @@ Example with no arguments:
 #
 #   PARAMETERS:
 #     None
+#
+#   RETURNS
+#     <your descr>
 #
 #   RAISES:
 #     <your descr>
@@ -89,6 +98,9 @@ Example with an identation level of 2
     #   PARAMETERS:
     #     num1
     #     num2
+    #
+    #   RETURNS
+    #     <your descr>
     #
     #   RAISES:
     #     <your descr>
