@@ -36,6 +36,7 @@ You can use it by accessing Vim in command mode (i.e by pressing `esc` and typin
 
 The usage is:
 `:Document <function number> <identation level> <args>|None`
+Keep in mind that no spaces should be in between args
 
 Example:
 `:Document sum_2_nums 0 num1,num2`
