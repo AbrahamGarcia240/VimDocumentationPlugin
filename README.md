@@ -112,6 +112,20 @@ Example with an identation level of 2
     #
     def sum_2_nums(num1, num2):
 ```
+You can also add sections to your code, e.g.
+`:CONSTANTS`
+```
+# --------------------------------------------------------------------------- #
+#                                  CONSTANTS                                  #
+# --------------------------------------------------------------------------- #
+```
+By default sections are in identation level 0
+This plugin supports:
+`:CONSTANTS`
+`:GLOBALS`
+`:FUNCTIONS`
+`:CLASSES`
+
 ## Install
 Ensure your Vim has python3:
 ```
