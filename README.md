@@ -1,6 +1,7 @@
 # Vim Documentation Plugin
-This is a Vim plugin coded in Python 3 that creates the command **Document** which adds in the current Vim line a documentation header like:
+This is a Vim plugin coded in Python 3 which adds templates for Python documentation
 
+For functions, such template looks like:
 ```
 # --------------------------- <your_function_name> --------------------------- #
 #
@@ -34,7 +35,7 @@ Created by Abraham Garcia with the help of Kimsa :3
 
 You can use it by accessing Vim in command mode (i.e by pressing `esc` and typing the usage)
 
-The usage is:
+The usage for documenting functions is:
 `:Document <function number> <identation level> <args>|None`
 Keep in mind that no spaces should be in between args
 
