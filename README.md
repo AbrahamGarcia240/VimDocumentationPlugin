@@ -126,6 +126,18 @@ This plugin supports:
 `:FUNCTIONS`
 `:CLASSES`
 
+If needed, you can also add headers and specify an identation level, e.g.
+`:HEADER example 0`
+
+```
+# --------------------------------- example --------------------------------- # 
+```
+`:HEADER example_with_ident 2`
+
+```
+   # -------------------------- example_with_ident -------------------------- #
+```
+
 ## Install
 Ensure your Vim has python3:
 ```
